@@ -7,16 +7,17 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: "Futura LT Book", sans-serif;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  background-color: black;
 }
 
 a, a:visited, a:hover, a:active{
-  text-decoration: none; color: var(--gray);
+  text-decoration: none; color: #ffff;
 }
 
 .header h1{
   font-weight: 900;
-  color: var(--gray);
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
 
 .header{
@@ -28,10 +29,15 @@ a, a:visited, a:hover, a:active{
   font-weight: 800;
 }
 
+.slideshow img{
+  width: 100%;
+  height: 100%;
+}
+
 .section{
   width: 700px;
   margin: 40px auto;
   text-align: center;
-  color: var(--gray);
+  color: #ffff;
   font-size: 25px;
 }
