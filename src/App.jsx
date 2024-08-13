@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='header'>
+      <div className='header' style={{ position: 'sticky', top: 0 }}>
         <h1>Tapas Tapas</h1>
         <a href='#'>Home</a>
         <a href='#'>Menu</a>
@@ -23,7 +23,13 @@ function App() {
           Whether you're joining us for a casual lunch, a romantic dinner, or a special celebration, our team is dedicated to making your visit memorable. Explore our diverse menu, savor our chef's specialties, and enjoy an unforgettable dining experience.
           Come dine with us and discover the perfect blend of flavors, creativity, and hospitality. We look forward to serving you!</p>
       </section>
-
+      <section className='comment'>
+        <div className='comment-wrap'>
+          <h2>Coming right up!</h2>
+          <p>A tapa on the terrace? Montadito inside? Salad in the bar?
+            Just let us know, we'll reserve it for you right now!</p>
+        </div>
+      </section>
     </>
   )
 }
