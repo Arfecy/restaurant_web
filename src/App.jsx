@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <div className='header' style={{ position: 'sticky', top: 0 }}>
-        <h1>Tapas Tapas</h1>
+      <div className='header'>
+        <img src='/public/tapas.svg'></img>
         <a href='#'>Home</a>
         <a href='#'>Menu</a>
         <a href='#'>About</a>
