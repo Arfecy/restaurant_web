@@ -2,15 +2,15 @@
 import { useEffect, useState } from "react";
 const dataSlider = [
   {
-    src: "/public/restaurant 1.jpg",
+    src: "/restaurant 1.jpg",
     id: 1
   },
   {
-    src: "/public/restaurant 2.jpg",
+    src: "/restaurant 2.jpg",
     id: 2
   },
   {
-    src: "/public/restaurant 3.jpg",
+    src: "/restaurant 3.jpg",
     id: 3
   },
 
