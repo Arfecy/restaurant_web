@@ -31,12 +31,30 @@ function App() {
         </div>
       </section>
       <section className='food'>
-        <div style={{ backgroundImage: "url(/foods/Gazpacho-modified.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>Gazpacho</div>
-        <div style={{ backgroundImage: "url(/foods/paella-modified.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>Paella</div>
-        <div style={{ backgroundImage: "url(/foods/tortilla-Espanola-modified.jpeg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>Tortilla Española</div>
-        <div style={{ backgroundImage: "url(/foods/gambasAlAjillo-modified.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>Gambas al ajillo</div>
-        <div style={{ backgroundImage: "url(/foods/pisto-modified.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>Pisto</div>
-        <div style={{ backgroundImage: "url(/foods/patatas-bravas-modified.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>Patatas bravas</div>
+        <div className='foodItem'>
+          <p>Gazpacho</p>
+          <img src='/public/foods/Gazpacho.jpg' />
+        </div>
+        <div className='foodItem'>
+          <p>Paella</p>
+          <img src='/public/foods/paella.jpg' />
+        </div>
+        <div className='foodItem'>
+          <p>Patatas Bravas</p>
+          <img src='/public/foods/patatas-bravas.jpg' />
+        </div>
+        <div className='foodItem'>
+          <p>Pisto</p>
+          <img src='/public/foods/pisto.jpg' />
+        </div>
+        <div className='foodItem'>
+          <p>Tortilla Espanola</p>
+          <img src='/public/foods//tortilla-Espanola.jpeg' />
+        </div>
+        <div className='foodItem'>
+          <p>Gambas Al Ajillo</p>
+          <img src='/public/foods/gambasAlAjillo.jpg' />
+        </div>
       </section>
     </>
   )
