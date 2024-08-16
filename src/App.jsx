@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className='header'>
-        <img src='/public/tapas.svg'></img>
+        <img src='/tapas.svg'></img>
         <a href='#'>Home</a>
         <a href='#'>Menu</a>
         <a href='#'>About</a>
@@ -33,27 +33,27 @@ function App() {
       <section className='food'>
         <div className='foodItem'>
           <p>Gazpacho</p>
-          <img src='/public/foods/Gazpacho.jpg' />
+          <img src='/foods/Gazpacho.jpg' />
         </div>
         <div className='foodItem'>
           <p>Paella</p>
-          <img src='/public/foods/paella.jpg' />
+          <img src='/foods/paella.jpg' />
         </div>
         <div className='foodItem'>
           <p>Patatas Bravas</p>
-          <img src='/public/foods/patatas-bravas.jpg' />
+          <img src='/foods/patatas-bravas.jpg' />
         </div>
         <div className='foodItem'>
           <p>Pisto</p>
-          <img src='/public/foods/pisto.jpg' />
+          <img src='/foods/pisto.jpg' />
         </div>
         <div className='foodItem'>
           <p>Tortilla Espanola</p>
-          <img src='/public/foods//tortilla-Espanola.jpeg' />
+          <img src='/foods//tortilla-Espanola.jpeg' />
         </div>
         <div className='foodItem'>
           <p>Gambas Al Ajillo</p>
-          <img src='/public/foods/gambasAlAjillo.jpg' />
+          <img src='/foods/gambasAlAjillo.jpg' />
         </div>
       </section>
     </>
