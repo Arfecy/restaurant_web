@@ -1,19 +1,20 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 import Slider from './Slider'
 import './Slider.css'
 
 
-function App() {
+function HomePage() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div className='header'>
         <img src='/tapas.svg'></img>
-        <a href='#'>Home</a>
-        <a href='#'>Menu</a>
-        <a href='#'>About</a>
+        <Link to='/'>Home</Link>
+        <Link to='/menu'>Menu</Link>
+        <Link to='/about'>About</Link>
       </div>
       <Slider />
       <section className='section'>
@@ -60,4 +61,4 @@ function App() {
   )
 }
 
-export default App
+export default HomePage
